@@ -233,3 +233,22 @@ nav + img {
   font-size: 34px;
   color: #ff523b;
 }
+
+/* BRANDS */
+.brands {
+  margin: 100px auto;
+}
+
+.brands .col-5 {
+  width: 160px;
+}
+
+.brands .col-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(90%);
+}
+
+.brands .col-5 img:hover {
+  filter: grayscale(0%);
+}
